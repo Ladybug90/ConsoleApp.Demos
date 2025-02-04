@@ -11,6 +11,7 @@
 //string
 string name = "Lady Bug";
 
+
 Console.WriteLine(name);
 Console.WriteLine("I am " + name); // add one string to the other (concat)
 Console.WriteLine($"they call me  {name}"); // string interpolation
@@ -26,6 +27,7 @@ Console.WriteLine("My retirement age is :" + retirementAge);
 
 //Boolean
 bool isRetired = false;
+Console.WriteLine("Am I retired? " + isRetired);
 Console.WriteLine("Am I retired? " + isRetired);
 
 
