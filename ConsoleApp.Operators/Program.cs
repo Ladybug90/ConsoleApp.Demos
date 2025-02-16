@@ -76,18 +76,25 @@ Console.WriteLine("************** End of Logical Results ******");
 
 //Mixing the operator with the output 
 
+Console.Write("Enter Random Value for Assignemt Operations:  ");
+int randomValue = Convert.ToInt32(Console.ReadLine());
+
 Console.WriteLine("************** Assignments Results ******");
 Console.WriteLine();
-num1 += 5;
-Console.WriteLine($"Num 1 increased by 5 {num1}");
-num1 -= 3;
-Console.WriteLine($"Num 1 reduced by 3 {num1}");
-num1 %= 2;
-Console.WriteLine($"Num 1 modolus by 2 {num1}");
-num1 /= 2;
-Console.WriteLine($" Num 1 divide by 2 {num1}");
-num1 *= 10;
-Console.WriteLine($"Num 1 multiply by 10 {num1}");
+//num1 += 5;
+num1 += randomValue;
+Console.WriteLine($"Num 1 increased by {randomValue}:  {num1}");
+num1 -= randomValue;
+Console.WriteLine($"Num 1 reduced by {randomValue}:{num1}");
+//num1 %= 2;
+num1 /= randomValue;
+Console.WriteLine($"Num 1 divide by {randomValue}: {num1}");
+//num1 /= 2;
+num1 %= randomValue;
+Console.WriteLine($" Num 1 mod by {randomValue}: {num1}");
+//num1 *= 10;
+num1 *= randomValue;
+Console.WriteLine($"Num 1 multiply by {randomValue}: {num1}");
 Console.WriteLine() ;   
 Console.WriteLine("************** End of Assignment Results ******");
 
